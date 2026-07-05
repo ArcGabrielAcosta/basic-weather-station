@@ -1,0 +1,9 @@
+# Credenciales locales (nunca subir al repo)
+.env
+secrets.h
+
+# Arduino IDE
+*.hex
+*.elf
+*.bin
+build/
