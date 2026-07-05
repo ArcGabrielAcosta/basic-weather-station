@@ -95,9 +95,9 @@ ESP32 DevKit
 ```
 basic-weather-station/
 ├── basic-weather-station.ino   # Sketch principal
-├── .env.example                # Plantilla de credenciales (sí va a Git)
-├── .env                        # Tus credenciales reales (NO va a Git)
-├── secrets.h                   # Generado por script (NO va a Git)
+├── .env.example                # Plantilla de credenciales
+├── .env                        # Crear este archivo para tus credenciales reales
+├── secrets.h                   # Generado por script
 ├── .gitignore
 ├── scripts/
 │   └── generate_secrets.py     # Convierte .env → secrets.h
